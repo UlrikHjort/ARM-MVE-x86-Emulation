@@ -34,7 +34,7 @@ make run-all  # gcc vs clang side-by-side summary
 make arm      # cross-compile only (object files, no link)
 make clean
 
-If arm cross compilation set ARM_TOOLCHAIN in the Makefile to point to the location og the arm toolchain
+If arm cross compilation set ARM_TOOLCHAIN in the Makefile to point to the location of the arm toolchain
 ```
 
 Requires `gcc`, `clang`, and `arm-none-eabi-gcc` with Cortex-M55 support.
